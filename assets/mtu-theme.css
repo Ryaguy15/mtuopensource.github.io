@@ -1,0 +1,62 @@
+/* css theme for the site*/
+
+
+.nav-bar {
+	background: #2c3840!important;
+}
+.nav-bar a{
+	color: white;
+	transition: color .25s;
+	transition-property:color;
+	transition-delay: .25s .25s;
+	transform-style: ease-in ease-out;
+}
+.nav-bar a:hover{
+	color: #ffcd00;
+}
+
+.menu-text{
+	color: #ffcd00;
+}
+
+.button{
+	background-color: #ffcd00;
+	color: black;
+	transition: background-color .25s color .25s !important;
+	transition-property: background-color color;
+	transition-delay: .25s .25s: 
+}
+.button:hover{
+	background-color: black;
+	color: #ffcd00;
+}
+
+.button.hollow{
+	border-color: #ffcd00;
+	color: white;
+	transition: background-color .25s color .25s !important;
+	transition-property: background-color color;
+	transition-delay: .25s .25s: 
+}
+.button.hollow:hover{
+	color: #ffcd00;
+	border-color: white;
+}
+.stat{
+	color: black;
+}
+
+
+/* TODO change the background image to a better one
+	recomended photo should be a light photo, dark ones don't work as well
+*/
+
+.callout.large{
+ background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/2e/Michigan_Tech_campus_2011.jpg");
+ background-size: cover;
+ background-position: center;
+}
+
+.callout p, h1{
+	color: white;
+}
